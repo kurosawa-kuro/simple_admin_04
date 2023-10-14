@@ -328,3 +328,50 @@ nav .fas {
 .form-group label {
     margin-right: 10px;
 }
+
+.list-group {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-group div {
+    padding-left: 10px;
+}
+
+.list-group p {
+    margin-bottom: 0.5rem;
+}
+
+.list-group-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--card-bg-color);
+    margin-bottom: 10px;
+    border: 1px solid var(--hover-bg-color);
+    border-radius: 5px;
+    position: relative;
+}
+
+.list-group-item:last-child {
+    margin-bottom: 0;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+}
+
+.list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--card-bg-color);
+    border-radius: 8px;
+    box-shadow: 0 0 10px var(--course-card-shadow-color);
+}

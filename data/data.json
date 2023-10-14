@@ -1,0 +1,234 @@
+[
+    {
+        "name": "田中太郎",
+        "age": 28,
+        "hobby": "週末に山へハイキングに行ったり、読書をしたりすることが好きです。",
+        "profilePic": "tanaka-taro.jpg",
+        "gender": "male",
+        "interest": [
+            "programming",
+            "design"
+        ],
+        "occupation": "engineer"
+    },
+    {
+        "name": "佐藤花子",
+        "age": 24,
+        "hobby": "映画鑑賞とカメラ。",
+        "profilePic": "sato-hanako.jpg",
+        "gender": "female",
+        "interest": [
+            "design"
+        ],
+        "occupation": "designer"
+    },
+    {
+        "name": "鈴木一郎",
+        "age": 30,
+        "hobby": "ゲームと音楽制作。",
+        "profilePic": "suzuki-ichiro.jpg",
+        "gender": "male",
+        "interest": [
+            "programming"
+        ],
+        "occupation": "engineer"
+    },
+    {
+        "name": "山田純",
+        "age": 22,
+        "hobby": "旅行と写真。",
+        "profilePic": "yamada-jun.jpg",
+        "gender": "male",
+        "interest": [
+            "marketing",
+            "programming"
+        ],
+        "occupation": "student"
+    },
+    {
+        "name": "石井里美",
+        "age": 26,
+        "hobby": "ヨガと瞑想。",
+        "profilePic": "ishii-satomi.jpg",
+        "gender": "female",
+        "interest": [
+            "design",
+            "marketing"
+        ],
+        "occupation": "designer"
+    },
+    {
+        "name": "中村優",
+        "age": 29,
+        "hobby": "ランニングと料理。",
+        "profilePic": "nakamura-yu.jpg",
+        "gender": "female",
+        "interest": [
+            "programming"
+        ],
+        "occupation": "engineer"
+    },
+    {
+        "name": "河野翼",
+        "age": 31,
+        "hobby": "サーフィンとギター。",
+        "profilePic": "kono-tsubasa.jpg",
+        "gender": "male",
+        "interest": [
+            "programming",
+            "design",
+            "marketing"
+        ],
+        "occupation": "engineer"
+    },
+    {
+        "name": "松本梨香",
+        "age": 23,
+        "hobby": "アートと美術館巡り。",
+        "profilePic": "matsumoto-rika.jpg",
+        "gender": "female",
+        "interest": [
+            "design"
+        ],
+        "occupation": "student"
+    },
+    {
+        "name": "今西真",
+        "age": 27,
+        "hobby": "自転車とキャンプ。",
+        "profilePic": "imanishi-makoto.jpg",
+        "gender": "male",
+        "interest": [
+            "marketing"
+        ],
+        "occupation": "engineer"
+    },
+    {
+        "name": "藤本花織",
+        "age": 25,
+        "hobby": "ダンスと音楽。",
+        "profilePic": "fujimoto-kaori.jpg",
+        "gender": "female",
+        "interest": [
+            "design",
+            "marketing"
+        ],
+        "occupation": "designer"
+    },
+    {
+        "name": "北村洋",
+        "age": 28,
+        "hobby": "フィットネスとプログラミング。",
+        "profilePic": "kitamura-hiroshi.jpg",
+        "gender": "male",
+        "interest": [
+            "programming",
+            "design"
+        ],
+        "occupation": "engineer"
+    },
+    {
+        "name": "熊谷知実",
+        "age": 24,
+        "hobby": "読書とお菓子作り。",
+        "profilePic": "kumagai-chika.jpg",
+        "gender": "female",
+        "interest": [
+            "marketing"
+        ],
+        "occupation": "designer"
+    },
+    {
+        "name": "長谷川健",
+        "age": 31,
+        "hobby": "トレッキングと写真。",
+        "profilePic": "hasegawa-ken.jpg",
+        "gender": "male",
+        "interest": [
+            "programming",
+            "marketing"
+        ],
+        "occupation": "engineer"
+    },
+    {
+        "name": "竹内麻里",
+        "age": 26,
+        "hobby": "絵を描くことと旅行。",
+        "profilePic": "takeuchi-mari.jpg",
+        "gender": "female",
+        "interest": [
+            "design",
+            "marketing"
+        ],
+        "occupation": "student"
+    },
+    {
+        "name": "石橋誠",
+        "age": 27,
+        "hobby": "ゴルフと音楽。",
+        "profilePic": "ishibashi-makoto.jpg",
+        "gender": "male",
+        "interest": [
+            "design"
+        ],
+        "occupation": "engineer"
+    },
+    {
+        "name": "小山里奈",
+        "age": 24,
+        "hobby": "料理と園芸。",
+        "profilePic": "koyama-rena.jpg",
+        "gender": "female",
+        "interest": [
+            "programming"
+        ],
+        "occupation": "designer"
+    },
+    {
+        "name": "原田賢",
+        "age": 29,
+        "hobby": "映画とジム。",
+        "profilePic": "harada-ken.jpg",
+        "gender": "male",
+        "interest": [
+            "programming",
+            "marketing"
+        ],
+        "occupation": "engineer"
+    },
+    {
+        "name": "橋本聡美",
+        "age": 23,
+        "hobby": "ボードゲームと読書。",
+        "profilePic": "hashimoto-satomi.jpg",
+        "gender": "female",
+        "interest": [
+            "design",
+            "programming"
+        ],
+        "occupation": "student"
+    },
+    {
+        "name": "加藤健一",
+        "age": 28,
+        "hobby": "釣りとアウトドア。",
+        "profilePic": "kato-kenichi.jpg",
+        "gender": "male",
+        "interest": [
+            "design",
+            "marketing"
+        ],
+        "occupation": "engineer"
+    },
+    {
+        "name": "前田真由",
+        "age": 26,
+        "hobby": "ショッピングとカフェ巡り。",
+        "profilePic": "maeda-mayu.jpg",
+        "gender": "female",
+        "interest": [
+            "marketing"
+        ],
+        "occupation": "designer"
+    }
+]
