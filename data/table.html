@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ダッシュボード | Kuroによる</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="../style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
 </head>
 <body>
@@ -12,7 +12,7 @@
     <nav>
       <ul>
         <li><a href="/ui_training/simple_admin_05/" class="logo">
-          <img src="./admin.png" alt="管理者アイコン">
+          <img src="../admin.png" alt="管理者アイコン">
           <span class="nav-link">ダッシュボード</span>
         </a></li>
         <li><a href="/ui_training/simple_admin_05/">
@@ -43,15 +43,15 @@
           <i class="fas fa-question-circle" aria-hidden="true"></i>
           <span class="nav-link">ヘルプ</span>
         </a></li>
-        <li><a href="./data/form.html">
+        <li><a href="./form.html">
           <i class="fas fa-question-circle" aria-hidden="true"></i>
           <span class="nav-link">フォーム</span>
         </a></li>
-        <li><a href="./data/list.html">
+        <li><a href="./list.html">
           <i class="fas fa-question-circle" aria-hidden="true"></i>
           <span class="nav-link">リスト</span>
         </a></li>
-        <li><a href="./data/table.html">
+        <li><a href="./table.html">
           <i class="fas fa-question-circle" aria-hidden="true"></i>
           <span class="nav-link">テーブル</span>
         </a></li>
@@ -65,68 +65,58 @@
 
     <main class="main-content">
       <header class="header-main">
-        <h1>スキル</h1>
+        <h1>テーブル</h1>
         <i class="fas fa-user-cog" aria-hidden="true"></i>
       </header>
 
-      <div class="skills-section">
-        <div class="card">
-          <i class="fas fa-laptop-code" aria-hidden="true"></i>
-          <h3>ウェブ開発</h3>
-          <p>100万人以上の学生が参加。</p>
-          <button>開始する</button>
-        </div>
-        <div class="card">
-          <i class="fab fa-wordpress" aria-hidden="true"></i>
-          <h3>WordPress</h3>
-          <p>300万人以上の学生が参加。</p>
-          <button>開始する</button>
-        </div>
-        <div class="card">
-          <i class="fas fa-palette" aria-hidden="true"></i>
-          <h3>グラフィックデザイン</h3>
-          <p>200万人以上の学生が参加。</p>
-          <button>開始する</button>
-        </div>
-        <div class="card">
-          <i class="fab fa-app-store-ios" aria-hidden="true"></i>
-          <h3>iOS開発</h3>
-          <p>100万人以上の学生が参加。</p>
-          <button>開始する</button>
-        </div>
-      </div>
-
-      <article class="course-section">
-        <h2>私のコース</h2>
-        <div class="course-container">
-          <ul>
-            <li class="active">進行中</li>
-            <li>探索</li>
-            <li>受講予定</li>
-            <li>完了</li>
-          </ul>
-          <div class="course">
-            <div class="course-card">
-              <h3>HTML</h3>
-              <p>80% - 進行中</p>
-              <button>続ける</button>
-              <i class="fab fa-html5 html" aria-hidden="true"></i>
+      <div class="form-container">
+        <form action="/path-to-submit" method="post" class="survey-form">
+            <div class="form-group">
+                <label for="name">名前：</label>
+                <input type="text" id="name" name="name" class="form-control" required placeholder="名前を入力してください">
             </div>
-            <div class="course-card">
-              <h3>CSS</h3>
-              <p>50% - 進行中</p>
-              <button>続ける</button>
-              <i class="fab fa-css3-alt css" aria-hidden="true"></i>
+    
+            <div class="form-group">
+                <label for="age">年齢：</label>
+                <input type="number" id="age" name="age" class="form-control" required placeholder="年齢を入力してください">
             </div>
-            <div class="course-card">
-              <h3>JavaScript</h3>
-              <p>30% - 進行中</p>
-              <button>続ける</button>
-              <i class="fab fa-js-square js" aria-hidden="true"></i>
+    
+            <div class="form-group">
+                <label for="hobby">趣味：</label>
+                <textarea  id="hobby" name="hobby"class="form-control" rows="3" placeholder="趣味について教えてください"></textarea>
             </div>
+    
+            <div class="form-group">
+              <label for="profilePic">プロフィール画像：</label>
+              <input type="file" id="profilePic" name="profilePic" class="form-control-file">
           </div>
-        </div>
-      </article >
+  
+          <div class="form-group">
+              <p>性別：</p>
+              <label><input type="radio" name="gender" value="male"> 男性</label>
+              <label><input type="radio" name="gender" value="female"> 女性</label>
+          </div>
+  
+          <div class="form-group">
+              <p>興味のある分野：</p>
+              <label><input type="checkbox" name="interest" value="programming"> プログラミング</label>
+              <label><input type="checkbox" name="interest" value="design"> デザイン</label>
+              <label><input type="checkbox" name="interest" value="marketing"> マーケティング</label>
+          </div>
+  
+          <div class="form-group">
+              <label for="occupation">職業：</label>
+              <select id="occupation" name="occupation" class="form-control">
+                  <option value="student">学生</option>
+                  <option value="engineer">エンジニア</option>
+                  <option value="designer">デザイナー</option>
+              </select>
+          </div>
+  
+          <button type="submit" class="btn btn-primary">送信</button>
+        </form>
+    </div>
+    
 
     </main>
   </div>
