@@ -65,60 +65,56 @@
 
     <main class="main-content">
       <header class="header-main">
-        <h1>テーブル</h1>
-        <i class="fas fa-user-cog" aria-hidden="true"></i>
+          <h1>テーブル</h1>
+          <i class="fas fa-user-cog" aria-hidden="true"></i>
       </header>
-
-      <div class="form-container">
-        <form action="/path-to-submit" method="post" class="survey-form">
-            <div class="form-group">
-                <label for="name">名前：</label>
-                <input type="text" id="name" name="name" class="form-control" required placeholder="名前を入力してください">
-            </div>
-    
-            <div class="form-group">
-                <label for="age">年齢：</label>
-                <input type="number" id="age" name="age" class="form-control" required placeholder="年齢を入力してください">
-            </div>
-    
-            <div class="form-group">
-                <label for="hobby">趣味：</label>
-                <textarea  id="hobby" name="hobby"class="form-control" rows="3" placeholder="趣味について教えてください"></textarea>
-            </div>
-    
-            <div class="form-group">
-              <label for="profilePic">プロフィール画像：</label>
-              <input type="file" id="profilePic" name="profilePic" class="form-control-file">
-          </div>
   
-          <div class="form-group">
-              <p>性別：</p>
-              <label><input type="radio" name="gender" value="male"> 男性</label>
-              <label><input type="radio" name="gender" value="female"> 女性</label>
-          </div>
+      <div class="table-container">
+          <table class="table table-striped">
+              <thead>
+                  <tr>
+                      <th>プロフィール写真</th>
+                      <th>名前</th>
+                      <th>年齢</th>
+                      <th>趣味</th>
+                      <th>性別</th>
+                      <th>興味</th>
+                      <th>職業</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td><img src="../image/admin.png" alt="田中太郎" class="img-thumbnail"></td>
+                      <td>田中太郎</td>
+                      <td>28</td>
+                      <td>週末に山へハイキングに行ったり、読書をしたりすることが好きです。</td>
+                      <td>male</td>
+                      <td>programming, design</td>
+                      <td>engineer</td>
+                  </tr>
+                  <tr>
+                      <td><img src="../image/admin.png" alt="佐藤花子" class="img-thumbnail"></td>
+                      <td>佐藤花子</td>
+                      <td>24</td>
+                      <td>映画鑑賞とカメラ。</td>
+                      <td>female</td>
+                      <td>design</td>
+                      <td>designer</td>
+                  </tr>
+                  <tr>
+                      <td><img src="../image/admin.png" alt="鈴木一郎" class="img-thumbnail"></td>
+                      <td>鈴木一郎</td>
+                      <td>30</td>
+                      <td>ゲームと音楽制作。</td>
+                      <td>male</td>
+                      <td>programming</td>
+                      <td>engineer</td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
+  </main>
   
-          <div class="form-group">
-              <p>興味のある分野：</p>
-              <label><input type="checkbox" name="interest" value="programming"> プログラミング</label>
-              <label><input type="checkbox" name="interest" value="design"> デザイン</label>
-              <label><input type="checkbox" name="interest" value="marketing"> マーケティング</label>
-          </div>
-  
-          <div class="form-group">
-              <label for="occupation">職業：</label>
-              <select id="occupation" name="occupation" class="form-control">
-                  <option value="student">学生</option>
-                  <option value="engineer">エンジニア</option>
-                  <option value="designer">デザイナー</option>
-              </select>
-          </div>
-  
-          <button type="submit" class="btn btn-primary">送信</button>
-        </form>
-    </div>
-    
-
-    </main>
   </div>
 </body>
 </html>
