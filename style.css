@@ -91,6 +91,8 @@ nav .fas {
     text-align: center;
 }
 
+/* Bootstrap風クラス */
+
 .container {
     display: flex;
 }
@@ -126,10 +128,105 @@ nav .fas {
     border-radius: 5px;
 }
 
-
 .btn-primary:hover {
     background-color: var(--btn-bg-hover-color);
     border-color: var(--btn-bg-hover-color);
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--card-bg-color);
+    border-radius: 8px;
+    box-shadow: 0 0 10px var(--course-card-shadow-color);
+}
+
+.form-control-file {
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: var(--background-color);
+    border: 1px solid var(--hover-bg-color);
+    border-radius: 0.25rem;
+    display: block;
+    width: 100%;
+}
+
+.form-group label {
+    margin-right: 10px;
+}
+
+.list-group {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-group div {
+    padding-left: 10px;
+}
+
+.list-group p {
+    margin-bottom: 0.5rem;
+}
+
+.list-group-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--card-bg-color);
+    margin-bottom: 10px;
+    border: 1px solid var(--hover-bg-color);
+    border-radius: 5px;
+    position: relative;
+}
+
+.list-group-item:last-child {
+    margin-bottom: 0;
+}
+
+.list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--card-bg-color);
+    border-radius: 8px;
+    box-shadow: 0 0 10px var(--course-card-shadow-color);
+}
+
+.table-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--card-bg-color);
+    border-radius: 8px;
+    box-shadow: 0 0 10px var(--course-card-shadow-color);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+.table th,
+.table td {
+    border: 1px solid var(--hover-bg-color);
+    padding: 0.5rem 1rem;
+    text-align: left;
+}
+
+.table thead th {
+    background-color: var(--btn-bg-color);
+    color: #fff;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: var(--hover-bg-color);
+}
+
+.table tbody tr:hover {
+    background-color: var(--course-card-shadow-color);
 }
 
 .logo {
@@ -304,59 +401,6 @@ nav .fas {
     color: var(--js-color);
 }
 
-
-.form-container {
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: var(--card-bg-color);
-    border-radius: 8px;
-    box-shadow: 0 0 10px var(--course-card-shadow-color);
-}
-
-.form-control-file {
-    padding: 0.5rem 0;
-    font-size: 1rem;
-    line-height: 1.5;
-    background-color: var(--background-color);
-    border: 1px solid var(--hover-bg-color);
-    border-radius: 0.25rem;
-    display: block;
-    width: 100%;
-}
-
-.form-group label {
-    margin-right: 10px;
-}
-
-.list-group {
-    list-style-type: none;
-    padding: 0;
-}
-
-.list-group div {
-    padding-left: 10px;
-}
-
-.list-group p {
-    margin-bottom: 0.5rem;
-}
-
-.list-group-item {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    background-color: var(--card-bg-color);
-    margin-bottom: 10px;
-    border: 1px solid var(--hover-bg-color);
-    border-radius: 5px;
-    position: relative;
-}
-
-.list-group-item:last-child {
-    margin-bottom: 0;
-}
-
 .profile-pic {
     width: 50px;
     height: 50px;
@@ -367,50 +411,7 @@ nav .fas {
     border-radius: 50%;
 }
 
-.list-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: var(--card-bg-color);
-    border-radius: 8px;
-    box-shadow: 0 0 10px var(--course-card-shadow-color);
-}
 
-.table-container {
-    max-width: 1500px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: var(--card-bg-color);
-    border-radius: 8px;
-    box-shadow: 0 0 10px var(--course-card-shadow-color);
-}
-
-/* テーブルスタイリング */
-.table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 1rem;
-}
-
-.table th,
-.table td {
-    border: 1px solid var(--hover-bg-color);
-    padding: 0.5rem 1rem;
-    text-align: left;
-}
-
-.table thead th {
-    background-color: var(--btn-bg-color);
-    color: #fff;
-}
-
-.table-striped tbody tr:nth-of-type(odd) {
-    background-color: var(--hover-bg-color);
-}
-
-.table tbody tr:hover {
-    background-color: var(--course-card-shadow-color);
-}
 
 .img-thumbnail {
     max-width: 50px;
