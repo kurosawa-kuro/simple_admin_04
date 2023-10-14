@@ -385,30 +385,34 @@ nav .fas {
     box-shadow: 0 0 10px var(--course-card-shadow-color);
 }
 
-/* 追加したスタイル */
+/* テーブルスタイリング */
 .table {
     width: 100%;
     border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+.table th,
+.table td {
+    border: 1px solid var(--hover-bg-color);
+    padding: 0.5rem 1rem;
+    text-align: left;
+}
+
+.table thead th {
+    background-color: var(--btn-bg-color);
+    color: #fff;
 }
 
 .table-striped tbody tr:nth-of-type(odd) {
     background-color: var(--hover-bg-color);
 }
 
-.table thead th {
-    border-bottom: 2px solid var(--hover-bg-color);
-    padding: 1rem;
-    text-align: left;
-}
-
-.table tbody td {
-    padding: 1rem;
-    border-top: 1px solid var(--hover-bg-color);
+.table tbody tr:hover {
+    background-color: var(--course-card-shadow-color);
 }
 
 .img-thumbnail {
-    width: 50px;
-    height: 50px;
+    max-width: 50px;
     border-radius: 50%;
-    object-fit: cover;
 }
