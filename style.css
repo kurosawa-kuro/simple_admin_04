@@ -122,8 +122,10 @@ nav .fas {
     background-color: var(--btn-bg-color);
     border-color: var(--btn-bg-color);
     color: #fff;
-    padding: 10px;
+    padding: 10px 16px;
+    border-radius: 5px;
 }
+
 
 .btn-primary:hover {
     background-color: var(--btn-bg-hover-color);
@@ -305,12 +307,24 @@ nav .fas {
 
 .form-container {
     max-width: 500px;
-}
-
-.form-login {
     margin: 0 auto;
     padding: 20px;
     background-color: var(--card-bg-color);
     border-radius: 8px;
     box-shadow: 0 0 10px var(--course-card-shadow-color);
+}
+
+.form-control-file {
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: var(--background-color);
+    border: 1px solid var(--hover-bg-color);
+    border-radius: 0.25rem;
+    display: block;
+    width: 100%;
+}
+
+.form-group label {
+    margin-right: 10px;
 }
