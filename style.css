@@ -58,10 +58,6 @@ body {
     background: var(--background-color);
 }
 
-.container {
-    display: flex;
-}
-
 nav {
     position: relative;
     top: 0;
@@ -71,6 +67,67 @@ nav {
     background: var(--nav-bg-color);
     width: 280px;
     overflow: hidden;
+}
+
+a {
+    position: relative;
+    color: var(--text-color-dark);
+    font-size: 14px;
+    display: table;
+    width: 280px;
+    padding: 10px;
+}
+
+a:hover {
+    background: var(--hover-bg-color);
+}
+
+nav .fas {
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--text-color-dark);
+    background-color: var(--background-color);
+    background-clip: padding-box;
+    border: 1px solid var(--hover-bg-color);
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: var(--btn-bg-color);
+    box-shadow: 0 0 0 0.2rem rgba(255, 87, 34, 0.5);
+}
+
+.btn-primary {
+    background-color: var(--btn-bg-color);
+    border-color: var(--btn-bg-color);
+    color: #fff;
+    padding: 10px;
+}
+
+.btn-primary:hover {
+    background-color: var(--btn-bg-hover-color);
+    border-color: var(--btn-bg-hover-color);
 }
 
 .logo {
@@ -91,37 +148,11 @@ nav {
     text-transform: uppercase;
 }
 
-a {
-    position: relative;
-    color: var(--text-color-dark);
-    font-size: 14px;
-    display: table;
-    width: 280px;
-    padding: 10px;
-}
-
-nav .fas {
-    position: relative;
-    width: 70px;
-    height: 40px;
-    top: 14px;
-    font-size: 20px;
-    text-align: center;
-}
-
 .nav-link {
     position: relative;
     top: 12px;
     margin-left: 10px;
 }
-
-a:hover {
-    background: var(--hover-bg-color);
-}
-
-/* .mt-5 {
-    margin-top: 2rem !important;
-} */
 
 .nav-logout {
     position: absolute;
@@ -271,6 +302,7 @@ a:hover {
     color: var(--js-color);
 }
 
+
 .form-container {
     max-width: 500px;
 }
@@ -281,39 +313,4 @@ a:hover {
     background-color: var(--card-bg-color);
     border-radius: 8px;
     box-shadow: 0 0 10px var(--course-card-shadow-color);
-}
-
-.form-group {
-    margin-bottom: 1rem;
-}
-
-.form-control {
-    display: block;
-    width: 100%;
-    padding: 0.5rem 0.75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    color: var(--text-color-dark);
-    background-color: var(--background-color);
-    background-clip: padding-box;
-    border: 1px solid var(--hover-bg-color);
-    border-radius: 0.25rem;
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
-
-.form-control:focus {
-    border-color: var(--btn-bg-color);
-    box-shadow: 0 0 0 0.2rem rgba(255, 87, 34, 0.5);
-}
-
-.btn-primary {
-    background-color: var(--btn-bg-color);
-    border-color: var(--btn-bg-color);
-    color: #fff;
-    padding: 10px;
-}
-
-.btn-primary:hover {
-    background-color: var(--btn-bg-hover-color);
-    border-color: var(--btn-bg-hover-color);
 }
