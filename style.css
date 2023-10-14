@@ -10,7 +10,7 @@
     --course-card-shadow-color: rgba(0, 0, 0, 0.1);
     --card-bg-color: #fff;
     --btn-bg-color: orangered;
-    --btn-bg-hover-color: rgba(223, 70, 15, 0.856);
+    --btn-bg-hover-color: rgba(223, 46, 15, 0.856);
     --course-bg-color: #fff;
     --inactive-tab-color: gray;
     --active-tab-color: #000;
@@ -30,6 +30,28 @@
     text-decoration: none;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+input[type="search"]::-webkit-search-clear-button,
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
 }
 
 body {
