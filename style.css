@@ -119,6 +119,10 @@ a:hover {
     background: var(--hover-bg-color);
 }
 
+/* .mt-5 {
+    margin-top: 2rem !important;
+} */
+
 .nav-logout {
     position: absolute;
     bottom: 0;
@@ -134,6 +138,9 @@ a:hover {
 .header-main {
     display: flex;
     width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
 }
 
 .header-main i {
@@ -262,4 +269,51 @@ a:hover {
 
 .js {
     color: var(--js-color);
+}
+
+.form-container {
+    max-width: 500px;
+}
+
+.form-login {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--card-bg-color);
+    border-radius: 8px;
+    box-shadow: 0 0 10px var(--course-card-shadow-color);
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--text-color-dark);
+    background-color: var(--background-color);
+    background-clip: padding-box;
+    border: 1px solid var(--hover-bg-color);
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: var(--btn-bg-color);
+    box-shadow: 0 0 0 0.2rem rgba(255, 87, 34, 0.5);
+}
+
+.btn-primary {
+    background-color: var(--btn-bg-color);
+    border-color: var(--btn-bg-color);
+    color: #fff;
+    padding: 10px;
+}
+
+.btn-primary:hover {
+    background-color: var(--btn-bg-hover-color);
+    border-color: var(--btn-bg-hover-color);
 }
