@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ブートストラップサンプルとサイドバー</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./style.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -37,37 +37,32 @@
     <!-- Main Content -->
     <div class="flex-grow-1">
       <!-- Hero Section -->
-      <header class="hero bg-primary text-white text-center py-5">
+      <header class="hero bg-primary text-white text-center py-4">
         <div class="d-flex justify-content-evenly align-items-center">
           <h1>ブートストラップサンプルへようこそ</h1>
-          <i class="fas fa-user-cog" aria-hidden="true"></i>
+
+          <div>
+            <i class="fas fa-user-cog" aria-hidden="true"></i>
+            <span>aaa@aaa.aaa</span>
+          </div>
         </div>
       </header>
 
       <!-- Content Section -->
       <section class="py-5">
         <div class="container">
-          <div class="row">
-            <div class="col-lg-4">
-              <h2><i class="fas fa-star"></i> 特徴1</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend ...</p>
-            </div>
-            <div class="col-lg-4">
-              <h2><i class="fas fa-star"></i> 特徴2</h2>
-              <p>Nulla porttitor accumsan tincidunt. Curabitur non nulla sit amet nisl tempus ...</p>
-            </div>
-            <div class="col-lg-4">
-              <h2><i class="fas fa-star"></i> 特徴3</h2>
-              <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur arcu erat ...</p>
-            </div>
-          </div>
-        </div>
+          <!-- Jumbotron -->
+          <div class="jumbotron">
+            <h1 class="display-4">ブートストラップサンプル</h1>
+            <p class="lead">このサンプルは、ブートストラップの基本的な使い方を学ぶためのものです。</p>
+            <!-- ここにワイドな風景画像を入れる -->
+            <img src="https://thumb.photo-ac.com/5f/5f69cc91035956666da388b25fee40dd_t.jpeg" alt="ワイドな画像"
+              class="img-fluid">
+            <!-- <img src="https://placehold.jp/800x400.png" alt="ワイドな画像" class="img-fluid"> -->
+            <!-- <hr class="my-4"> -->
+            <p>このサンプルは、ブートストラップの基本的な使い方を学ぶためのものです。</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">もっと詳しく</a>
       </section>
-
-      <!-- Footer -->
-      <footer class="text-center py-4">
-        <p>&copy; 2023 ブートストラップサンプル. 全ての権利を保有します。</p>
-      </footer>
     </div>
   </div>
 
